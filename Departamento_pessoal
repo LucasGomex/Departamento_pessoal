@@ -22,10 +22,10 @@ class Venda
 
 class Vendedor
 {
-    private int id;
-    private string nome;
-    private double percComissao;
-    private Venda[] asVendas;
+    public int id;
+    public string nome;
+    public double percComissao;
+    public Venda[] asVendas;
 
     public Vendedor(int id, string nome, double percComissao)
     {
